@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/calculo-fgts-mcp",
+  "title": "Cálculo de FGTS",
+  "description": "FGTS calculation for AI: update FGTS amounts and differences with official correction and interest o",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/calculo-fgts-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_calculo-fgts"
+    }
+  ]
+}
